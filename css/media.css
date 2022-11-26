@@ -1,0 +1,108 @@
+@media (max-width:511px) {
+    .top .right {
+        padding-left: 20px;
+    }
+    .top .container{
+        width: 95%;
+    }
+}
+@media (max-width:1323px){
+    .list{
+        display: none;
+    }
+    .search{
+        display: none;
+}
+    .navbar{
+    position: relative;
+}
+    .login{
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    display: none;
+}
+    .menu{
+        display: block;
+          }
+    
+}
+
+@media (max-width:800px){
+    .section1 img{
+        display: none;
+    }
+    .text1{
+        padding-top: 50px;
+    }
+}
+@media (max-width:550px) {
+    .section1 button{
+        margin-top: 20px;
+    }
+    .top .container{
+        padding-left: 10px;
+    }
+}
+@media (max-width:880px) {
+    .big-parent{
+        padding-left: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width:990px){
+    .section{
+        position: relative;
+    }
+    .arrow4{
+        position: absolute;
+        top: 330px;
+        right: 15px;
+    }
+    .arrow3{
+        position: absolute;
+        top: 330px;
+        left: 30px;
+    }
+}
+@media (max-width:775px){
+    .section{
+        position: relative;
+    }
+    .arrow4{
+        position: absolute;
+        top: 290px;
+        left: 30px;
+    }
+    .arrow3{
+        position: absolute;
+        top: 360px;
+        left: 30px;
+    }
+    iframe{
+        position: absolute;
+        right: 20px;
+    }
+}
+
+@media (max-width:715px){
+    .section{
+        position: relative;
+    }
+    iframe{
+        width: 500px;
+        height: 350px;
+        position: absolute;
+        top:150px ;
+        right: 65px;
+    }
+}
+@media (max-width:900px){
+    .text2{
+        width: 60%;
+    }
+}
+
